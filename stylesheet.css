@@ -1,0 +1,449 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin:0;
+}	
+body{
+	font-size: 62.5%;	
+  /** you can set this as 100% if you want **/
+	background-color: #666;
+}
+h1, h2, h3{
+	font-weight: 700;	
+	padding: 10px 20px;
+	
+    
+}
+h1{
+font-size: 3.6rem;
+font-family:'Pacifico', cursive, serif;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0px 3px 0px #5e5e5e, 0px 5px 0px #4d4d4d, 0px 7px 0px #3c3c3c, 0px 9px 0px #2b2b2b, 3px 8px 15px rgba(0,0,0,0.1), 3px 8px 5px rgba(0,0,0,0.3);
+}
+
+    
+    
+
+h2{
+	font-size: 3.0rem;	
+	font-family:'Fjalla One', serif;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+
+}
+h3{
+	font-size: 1.6rem;
+	font-family:'Roboto', serif;
+    color: #ffffff;	
+    text-shadow: 2px 2px 1px #000000;
+}
+p, li, a{
+	font-weight: 400;
+	font-family: sans-serif;
+	color: #555;
+    
+}
+p{
+	padding: 10px 20px;
+	font-size: 16px;
+    font-family: sans-serif;
+    
+}
+li{
+	font-size: 1.4rem;
+    font-family:'PT Sans Narrow', sans-serif;
+    text-shadow: 2px 2px 1px grey;
+}
+ol li{
+	padding: 6px 20px;
+	margin-left: 20px;
+	list-style-position:inside;
+}
+a{
+	font-size: 1.4rem;
+    font-family: sans-serif;
+}	
+
+/***********************************
+					Layout
+***********************************/
+.wrapper{
+	background-color: #7F7156;	
+    overflow: hidden;
+    
+/*
+    width: 90%;
+    margin: auto;
+*/
+    
+}
+.masthead{
+    background-color: #CCB882
+ 
+   
+    	
+}
+.nav{
+    float: left;
+    background-color: #FFDA78;
+    
+    
+    
+/*
+    width: 20%;
+    padding: 0px;
+*/
+    
+    //*text-align:*//
+    
+}
+
+
+.navbar{
+         background-color: #FFE6A2;
+
+   
+    
+    
+}
+
+
+.main{
+    background-color:#FFE6A2;
+    outline: black;
+  
+/*    float: left;*/
+/*
+    width: 40%;
+    padding: 0px;
+*/
+    
+    
+    
+}
+
+.two{
+    background-color:#FFE6A2;
+    outline: black;
+   
+    
+    
+/*    float: left;*/
+/*    width: 20%;*/
+}
+
+
+
+.three{
+    background-color:#FFE6A2;
+    outline: black;
+    
+/*    float: left;*/
+/*    width: 20%;*/
+}
+
+
+.sidebar{
+	
+}
+.footer{
+  
+  clear: both;
+    width: 100%;
+  margin-top: 2%;
+    float: left;
+}
+
+.footer p{
+    margin-top: 2%;
+}
+/***********************************
+                        MEDIA 
+***********************************/
+@media screen and (min-width:1080px){
+    .nav{
+        float: left;
+        margin: 0;
+        width: 20%;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+}
+    
+    
+    .masthead{
+    background-color: #CCB882;
+    margin-bottom: 2%;
+
+}
+    
+    .navbar{
+        width: 100%;
+        float: left;
+ 
+         
+    }
+    .navbar li{
+        width: 100%;
+        
+    }
+    .main{ 
+        float: left;
+        width: 40%;
+        margin-right: 2%;
+        
+        padding: 0px;
+    }
+    
+    .two{
+        float: left;
+        width:15%;
+        margin-right: 2%;
+        
+        
+    }
+    
+    .three{
+        float: left;
+        width: 15%;
+        margin-right: 2%;
+        
+    }
+    
+}
+
+@media screen and  (min-width: 720px) and (max-width:1079px){
+    .nav{
+        
+        margin: 0;
+        width: 100%;
+        margin-bottom: 2%
+        
+        
+}
+    .masthead{
+    background-color: #CCB882;
+    
+
+}
+    .navbar{
+        width: 100%;
+        float: left;
+        
+}
+    
+    .navbar li
+    {
+        width: 25%;
+        float: left;
+}
+    
+    .main{ 
+        float: left;
+        width: 45%;
+/*        width: 40%;*/
+        padding: 0px;
+        margin-left: 3%;
+        margin-right: 2%;
+}
+    
+    .two{
+        float: left;
+        width:22%;
+        margin-right: 2%;
+        
+        
+    }
+    
+    .three{
+        float: left;
+        width: 22%;
+        margin-right: 2%;
+    }
+}
+
+
+
+@media screen and (max-width:719px) and (min-width: 500px){
+    .nav{
+        
+        margin: 0;
+        width: 100%
+            
+        }
+   
+    .masthead{
+    background-color: #CCB882;
+/*    margin-bottom: 2%;*/
+
+}
+    
+    
+    
+    .navbar{
+        width: 100%;
+        float: left;
+        
+    }
+    
+    .navbar li
+    {
+        width: 20%;
+        float: left;
+    }
+    .main{ 
+        float: left;
+        width: 96%;
+/*        width: 40%;*/
+        padding: 0px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .two{
+        float: left;
+        width:47%;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+        
+    }
+    
+    .three{
+        float: left;
+        width:47%;
+        margin-right: 2%;
+        
+    }
+   
+
+    
+    
+    
+    
+}
+@media screen and (max-width:499px) {
+  
+    .nav{
+        
+        margin: 0;
+        width: 100%
+        
+    }
+    
+    .masthead{
+    background-color: #CCB882;
+   
+}
+    
+    .navbar{
+        width: 100%;
+        float: left;
+        
+    }
+    .navbar li{
+        width: 50%;
+        float: left;
+             
+    }
+    .main{ 
+        float: left;
+        width: 96%;
+/*        width: 40%;*/
+        padding: 0px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    
+    }
+    
+    .two{
+        float: left;
+        width:96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    
+        
+        
+    }
+    
+    .three{
+        float: left;
+        width:100%;
+         width:96%;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+    }
+    
+}
+
+
+
+
+/***********************************
+					Masthead
+***********************************/
+.masthead h1{
+	padding: 30px 20px;
+}
+
+/***********************************
+					Navigation
+***********************************/
+
+.navbar li{
+    text-align: center;
+	float:left;	
+	 /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+    
+    
+}
+.navbar a,
+.navbar a:visited{
+    font-family:'PT Sans Narrow', sans-serif;
+	display: block;	
+	padding: 8px 16px;
+    text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: #FFE6A2;
+}
+
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus{
+	color: #fff;
+    background-color: #CCB882;	
+}
+
+
+
+
+/***********************************
+					Content
+***********************************/
+.sidebar p{
+	font-size: 1.4rem;	
+}
+.instructions{
+	color: #C30;	
+}
+/***********************************
+					Footer
+***********************************/
+.footer p{
+	padding: 20px 20px;
+	font-size: 1.2rem;
+	color: #000000;	
+    background-color: #CCB882;
+}
